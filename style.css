@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.watch-store-homepage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(106deg, #f4a764 -2.93%, #ffdec2 72.14%);
+}
+
+.product-card {
+  width: 80%;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.header {
+  height: 8vh;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.watch-slide-section {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.header-logo {
+  height: auto;
+}
+
+.header-nav-links {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.header-nav-link {
+  color: #1c1415;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sign-up-button {
+  display: inline-flex;
+  padding: 12px 38px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: #1c1415;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+  cursor: pointer;
+}
+
+.watch-slider-content-section {
+  display: flex;
+  align-self: center;
+}
+
+.contentSection {
+  width: 50%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.splide__slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: none;
+}
+
+#watch-title {
+  color: #fff;
+  font-family: "Sofia Sans";
+  font-size: 45px;
+  font-weight: 700;
+}
+
+#watch-title-info {
+  color: #fff;
+  font-family: "Sofia Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+#watch-title-highlight {
+  color: #1c1415;
+  font-family: "Sofia Sans";
+  font-size: 52px;
+  font-style: normal;
+}
+
+.watch-title-description {
+  color: black;
+  font-family: Poppins;
+  font-size: 24px;
+  /* width: 70%; */
+}
+
+.watch-price {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#socialImg2 {
+  display: none;
+}
+.header-logo-section {
+  flex-grow: 1;
+}
+/* Styling for the previous arrow */
+.splide__arrow--prev {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Styling for the next arrow */
+.splide__arrow--next {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Styling for the arrow icons */
+.splide__arrow svg {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header-nav-links {
+    width: 100%;
+    justify-content: flex-end;
+    column-gap: 5px;
+    margin-left: 20px;
+  }
+
+  .header-logo {
+    width: 90px;
+    height: auto;
+  }
+
+  .product-card {
+    /* width: 95%; */
+    padding: 20px 0;
+  }
+
+  .sign-up-button {
+    display: none;
+  }
+
+  .header-nav-link {
+    font-size: 12px;
+    display: none;
+  }
+
+  .watch-slider-content-section {
+    flex-direction: column;
+  }
+  #watch-title {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .contentSection {
+    width: 100%;
+  }
+  #watch-title-info {
+    font-size: 20px;
+  }
+  #watch-title-highlight {
+    font-size: 18px;
+  }
+
+  .watch-title-description {
+    font-size: 14px;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .watch-price {
+    font-size: 22px;
+  }
+
+  .social-img {
+    height: 40px;
+  }
+
+  .watch-slide-section {
+    width: 90%;
+    align-self: center;
+  }
+
+  .splide__slide {
+    /* height: 30vh; */
+    border: 1px solid red;
+  }
+
+  #socialImg1 {
+    display: none;
+  }
+
+  #socialImg2 {
+    display: block;
+    height: 25px;
+    align-self: flex-start;
+    margin-top: 30px;
+  }
+
+  .icon {
+    display: block;
+  }
+}
