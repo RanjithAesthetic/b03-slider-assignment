@@ -69,6 +69,7 @@ navElement.appendChild(imageContainer);
 const ulElement = document.createElement("ul");
 ulElement.classList.add("header-nav-links");
 // Iterate over headings in navItems and create <li> elements
+
 navItems.headings.forEach((heading) => {
   const liElement = document.createElement("li");
   liElement.textContent = heading;
@@ -102,10 +103,6 @@ function renderMainWatchSection(eachProduct, index) {
   <img class="social-img" id="socialImg1" src="./images/social media.png" />
     `;
 }
-
-const splide = new Splide(".splide", {
-  pagination: false,
-});
 
 document.addEventListener("DOMContentLoaded", function () {
   var splide = new Splide(".splide", {

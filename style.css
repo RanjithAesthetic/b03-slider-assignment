@@ -89,10 +89,6 @@
   justify-content: center;
 }
 
-.icon {
-  display: none;
-}
-
 #watch-title {
   color: #fff;
   font-family: "Sofia Sans";
@@ -119,7 +115,6 @@
   color: black;
   font-family: Poppins;
   font-size: 24px;
-  /* width: 70%; */
 }
 
 .watch-price {
@@ -141,12 +136,14 @@
 .splide__arrow--prev {
   background-color: #fff;
   color: #333;
+  font-size: 32px;
 }
 
 /* Styling for the next arrow */
 .splide__arrow--next {
   background-color: #fff;
   color: #333;
+  font-size: 32px;
 }
 
 /* Styling for the arrow icons */
@@ -175,7 +172,7 @@
   }
 
   .product-card {
-    /* width: 95%; */
+    width: 100%;
     padding: 20px 0;
   }
 
@@ -184,8 +181,9 @@
   }
 
   .header-nav-link {
+    display: flex;
+    justify-content: space-between;
     font-size: 12px;
-    display: none;
   }
 
   .watch-slider-content-section {
@@ -225,8 +223,7 @@
   }
 
   .splide__slide {
-    /* height: 30vh; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   #socialImg1 {
@@ -238,9 +235,5 @@
     height: 25px;
     align-self: flex-start;
     margin-top: 30px;
-  }
-
-  .icon {
-    display: block;
   }
 }
